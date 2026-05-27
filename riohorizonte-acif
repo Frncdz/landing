@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Rio Horizonte - Departamentos Exclusivos en Huancayo</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    
+    <!-- Tipografía Inter (Estilo Apple) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        body { 
+            font-family: 'Inter', sans-serif; 
+            -webkit-tap-highlight-color: transparent;
+        }
+        html { scroll-behavior: smooth; }
+    </style>
+
+    <!-- Meta Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '3475167329307469');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=3475167329307469&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
+</head>
+<body class="bg-gray-950 text-white min-h-screen flex flex-col relative overflow-x-hidden antialiased">
+
+    <!-- IMAGEN DE FONDO -->
+    <div class="absolute inset-0 z-0 h-[100vh] lg:h-full">
+        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80" 
+             alt="Rio Horizonte" 
+             class="w-full h-full object-cover object-center brightness-35 lg:brightness-40">
+    </div>
+
+    <!-- NAVBAR -->
+    <header class="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 py-4 flex justify-between items-center backdrop-blur-md bg-black/10">
+        <div class="flex items-center">
+            <span class="text-xl sm:text-2xl font-bold tracking-tight text-white">Rio<span class="text-gray-400 font-light">Horizonte</span></span>
+        </div>
+        <div>
+            <a href="#formulario" class="bg-white text-black px-4 py-2 rounded-full text-xs font-semibold tracking-wide hover:bg-gray-200 transition-all active:scale-95 shadow-sm">
+                Cotizar
+            </a>
+        </div>
+    </header>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main class="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 py-6 lg:py-12 flex flex-col lg:grid lg:grid-cols-12 gap-8 lg:gap-12 items-center flex-1">
+        
+        <!-- SECCIÓN IZQUIERDA: TEXTO E INFO -->
+        <div class="lg:col-span-6 space-y-4 sm:space-y-6 text-left w-full">
+            <span class="bg-white/10 backdrop-blur-md text-white border border-white/20 px-3.5 py-1 rounded-full text-[11px] sm:text-xs font-medium tracking-wide inline-flex items-center gap-1.5">
+                📍 Jr. Malecón La Rivera N°171 - Huancayo
+            </span>
+            <h1 class="text-3xl sm:text-4xl lg:text-6xl font-bold tracking-tight leading-tight text-white max-w-md lg:max-w-none">
+                El hogar que mereces frente al malecón.
+            </h1>
+            <p class="text-base sm:text-lg text-gray-200 font-light max-w-xl">
+                Departamentos de estreno en una zona de <span class="font-semibold text-white">alta plusvalía</span>, acabados de lujo y vistas inigualables al malecón La Rivera.
+            </p>
+            <div class="pt-2 flex items-baseline space-x-2">
+                <span class="text-xs text-gray-300 uppercase tracking-wider font-medium">Desde</span>
+                <span class="text-2xl sm:text-3xl font-bold text-white tracking-tight">S/. 204,000</span>
+            </div>
+            
+            <div class="grid grid-cols-3 gap-2 sm:gap-4 pt-3 sm:pt-6">
+                <div class="bg-black/30 backdrop-blur-md border border-white/10 p-3 sm:p-4 rounded-xl sm:rounded-2xl text-center lg:text-left">
+                    <p class="text-[9px] sm:text-xs text-gray-400 font-medium uppercase tracking-wider">Vista</p>
+                    <p class="text-xs sm:text-sm font-semibold text-white mt-0.5 sm:mt-1 truncate">Al Malecón</p>
+                </div>
+                <div class="bg-black/30 backdrop-blur-md border border-white/10 p-3 sm:p-4 rounded-xl sm:rounded-2xl text-center lg:text-left">
+                    <p class="text-[9px] sm:text-xs text-gray-400 font-medium uppercase tracking-wider">Acabados</p>
+                    <p class="text-xs sm:text-sm font-semibold text-white mt-0.5 sm:mt-1 truncate">De Lujo</p>
+                </div>
+                <div class="bg-black/30 backdrop-blur-md border border-white/10 p-3 sm:p-4 rounded-xl sm:rounded-2xl text-center lg:text-left">
+                    <p class="text-[9px] sm:text-xs text-gray-400 font-medium uppercase tracking-wider">Zona</p>
+                    <p class="text-xs sm:text-sm font-semibold text-white mt-0.5 sm:mt-1 truncate">Alta Plusvalía</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- SECCIÓN DERECHA: FORMULARIO -->
+        <div id="formulario" class="lg:col-span-6 w-full flex justify-center lg:justify-end pt-4 lg:pt-0">
+            <div class="bg-white text-gray-900 p-5 sm:p-8 rounded-2xl sm:rounded-3xl shadow-2xl w-full max-w-md border border-gray-100">
+                <h2 class="text-xl sm:text-2xl font-bold tracking-tight text-gray-900">Solicitar Información</h2>
+                <p class="text-xs sm:text-sm text-gray-500 mt-0.5 mb-5">Déjanos tus datos y un asesor te contactará por WhatsApp.</p>
+
+                <form id="leadForm" class="space-y-4.5">
+                    
+                    <!-- Selector de Objetivo (iOS Style) -->
+                    <div>
+                        <label class="block text-[11px] font-semibold text-gray-400 uppercase tracking-wider mb-1.5">¿Cuál es tu objetivo?</label>
+                        <div class="grid grid-cols-2 gap-2 bg-gray-100 p-1 rounded-xl">
+                            <label class="segmented-item flex items-center justify-center py-2.5 rounded-lg cursor-pointer transition text-center">
+                                <input type="radio" name="objetivo" value="Vivienda" class="sr-only" checked>
+                                <span class="text-xs sm:text-sm font-medium text-gray-800">Para Vivienda</span>
+                            </label>
+                            <label class="segmented-item flex items-center justify-center py-2.5 rounded-lg cursor-pointer transition text-center">
+                                <input type="radio" name="objetivo" value="Inversion" class="sr-only">
+                                <span class="text-xs sm:text-sm font-medium text-gray-600">Para Inversión</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Campos de Texto -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-[11px] font-semibold text-gray-500 uppercase tracking-wider mb-1">Nombre Completo *</label>
+                            <input type="text" id="nombre" required placeholder="Ej. Juan Pérez" 
+                                   class="w-full bg-gray-50 border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-black focus:bg-white transition text-gray-900 h-11">
+                        </div>
+                        <div>
+                            <label class="block text-[11px] font-semibold text-gray-500 uppercase tracking-wider mb-1">DNI</label>
+                            <input type="tel" id="dni" placeholder="8 dígitos" pattern="[0-9]{8}" maxlength="8"
+                                   class="w-full bg-gray-50 border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-black focus:bg-white transition text-gray-900 h-11">
+                        </div>
+                    </div>
+
+                    <div>
+                        <label class="block text-[11px] font-semibold text-gray-500 uppercase tracking-wider mb-1">Teléfono / WhatsApp *</label>
+                        <input type="tel" id="whatsapp" required placeholder="987654321"
+                               class="w-full bg-gray-50 border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-black focus:bg-white transition text-gray-900 h-11">
+                    </div>
+
+                    <div>
+                        <label class="block text-[11px] font-semibold text-gray-500 uppercase tracking-wider mb-1">Correo <span class="text-gray-400 font-normal">(Opcional)</span></label>
+                        <input type="email" id="correo" placeholder="ejemplo@correo.com"
+                               class="w-full bg-gray-50 border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-black focus:bg-white transition text-gray-900 h-11">
+                    </div>
+
+                    <!-- Selects -->
+                    <div>
+                        <label class="block text-[11px] font-semibold text-gray-500 uppercase tracking-wider mb-1">Presupuesto Estimado *</label>
+                        <div class="relative">
+                            <select id="presupuesto" required 
+                                    class="w-full bg-gray-50 border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-black focus:bg-white transition text-gray-800 appearance-none h-11">
+                                <option value="" disabled selected>Selecciona una opción</option>
+                                <option value="30k - 50k">S/. 30k - S/. 50k</option>
+                                <option value="50k - 80k">S/. 50k - S/. 80k</option>
+                                <option value="80k - 100k">S/. 80k - S/. 100k</option>
+                                <option value="100k - 200k">S/. 100k - S/. 200k</option>
+                                <option value="200k +">S/. 200k a más</option>
+                            </select>
+                            <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-4 text-gray-500">
+                                ▼
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <label class="block text-[11px] font-semibold text-gray-500 uppercase tracking-wider mb-1">¿Cuándo planeas comprar? *</label>
+                        <div class="relative">
+                            <select id="tiempo" required 
+                                    class="w-full bg-gray-50 border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-black focus:bg-white transition text-gray-800 appearance-none h-11">
+                                <option value="" disabled selected>Selecciona un tiempo</option>
+                                <option value="Cuanto antes">Cuanto antes</option>
+                                <option value="Dentro de 3 meses">Dentro de 3 meses</option>
+                                <option value="Dentro de 6 meses">Dentro de 6 meses</option>
+                                <option value="Solo estoy comparando">Solo estoy comparando</option>
+                            </select>
+                            <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-4 text-gray-500">
+                                ▼
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Botón Enviar -->
+                    <button type="submit" id="btnSubmit" 
+                            class="w-full bg-black text-white text-sm font-semibold h-12 rounded-xl hover:bg-gray-800 active:scale-[0.98] transition-all tracking-wide shadow-md mt-4 flex justify-center items-center cursor-pointer">
+                        <span id="btnText">Enviar información</span>
+                    </button>
+                </form>
+
+                <p id="msgResponse" class="text-xs text-center mt-3 font-medium hidden"></p>
+            </div>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 py-6 border-t border-white/10 text-center sm:text-left flex flex-col sm:flex-row justify-between items-center text-[11px] text-gray-400 gap-2 bg-gray-950/80 backdrop-blur-md">
+        <p>&copy; 2026 Rio Horizonte. Todos los derechos reservados.</p>
+        <p class="font-light">Diseño iOS optimizado para alta conversión móvil.</p>
+    </footer>
+
+    <!-- SCRIPT DE INTEGRACIÓN -->
+    <script>
+        const radioItems = document.querySelectorAll('.segmented-item');
+        
+        function updateSegmentedUI() {
+            radioItems.forEach(item => {
+                const input = item.querySelector('input');
+                const text = item.querySelector('span');
+                if (input.checked) {
+                    item.classList.add('bg-white', 'shadow-xs');
+                    text.classList.remove('text-gray-600');
+                    text.classList.add('text-black', 'font-semibold');
+                } else {
+                    item.classList.remove('bg-white', 'shadow-xs');
+                    text.classList.remove('text-black', 'font-semibold');
+                    text.classList.add('text-gray-600');
+                }
+            });
+        }
+        
+        radioItems.forEach(item => {
+            item.addEventListener('click', () => {
+                item.querySelector('input').checked = true;
+                updateSegmentedUI();
+            });
+        });
+        updateSegmentedUI();
+
+        document.getElementById('leadForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            const btnSubmit = document.getElementById('btnSubmit');
+            const btnText = document.getElementById('btnText');
+            const msgResponse = document.getElementById('msgResponse');
+            
+            btnSubmit.disabled = true;
+            btnText.innerText = "Enviando...";
+            msgResponse.classList.add('hidden');
+
+            const objetivo = document.querySelector('input[name="objetivo"]:checked').value;
+            const nombre = document.getElementById('nombre').value;
+            const dni = document.getElementById('dni').value || "No especifica";
+            const whatsapp = document.getElementById('whatsapp').value;
+            const correo = document.getElementById('correo').value || "No especifica";
+            const presupuesto = document.getElementById('presupuesto').value;
+            const tiempo = document.getElementById('tiempo').value;
+
+            const payload = {
+                nombre: nombre,
+                dni: dni,
+                objetivo: objetivo,
+                whatsapp: whatsapp,
+                correo: correo,
+                presupuesto: presupuesto,
+                tiempo: tiempo
+            };
+
+            // TU NUEVA URL DE CONEXIÓN DIRECTA
+            const webAppUrl = "https://script.google.com/macros/s/AKfycbxp9uspUTXmGDs1JSZ5cycpxMZ2Gmr7LpO-CvTQlkdanYmdMXlFSCjxMD8yAQzieBuQ/exec";
+
+            try {
+                await fetch(webAppUrl, {
+                    method: 'POST',
+                    mode: 'no-cors',
+                    headers: { 'Content-Type': 'text/plain' },
+                    body: JSON.stringify(payload)
+                });
+
+                if (typeof fbq !== 'undefined') {
+                    fbq('track', 'Lead', {
+                        content_name: 'Rio Horizonte Mobile Lead',
+                        value: 0.00,
+                        currency: 'PEN'
+                    });
+                }
+
+                msgResponse.innerText = "¡Listo! Datos guardados, un asesor te escribirá.";
+                msgResponse.className = "text-xs text-center mt-3 font-semibold text-green-600 bg-green-50 p-2 rounded-lg";
+                msgResponse.classList.remove('hidden');
+                
+                document.getElementById('leadForm').reset();
+                updateSegmentedUI();
+
+            } catch (error) {
+                msgResponse.innerText = "Error de conexión. Inténtalo de nuevo.";
+                msgResponse.className = "text-xs text-center mt-3 font-semibold text-red-600 bg-red-50 p-2 rounded-lg";
+                msgResponse.classList.remove('hidden');
+            } finally {
+                btnSubmit.disabled = false;
+                btnText.innerText = "Enviar información";
+            }
+        });
+    </script>
+</body>
+</html>
