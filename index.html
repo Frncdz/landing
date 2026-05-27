@@ -5,10 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Rio Horizonte - Departamentos Exclusivos en Huancayo</title>
     
-    <!-- Tailwind CSS -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     
-    <!-- Tipografía Inter (Estilo Apple) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -21,7 +19,6 @@
         html { scroll-behavior: smooth; }
     </style>
 
-    <!-- Meta Pixel Code -->
     <script>
     !function(f,b,e,v,n,t,s)
     {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -37,18 +34,15 @@
     <noscript><img height="1" width="1" style="display:none"
     src="https://www.facebook.com/tr?id=3475167329307469&ev=PageView&noscript=1"
     /></noscript>
-    <!-- End Meta Pixel Code -->
-</head>
+    </head>
 <body class="bg-gray-950 text-white min-h-screen flex flex-col relative overflow-x-hidden antialiased">
 
-    <!-- IMAGEN DE FONDO -->
     <div class="absolute inset-0 z-0 h-[100vh] lg:h-full">
         <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80" 
              alt="Rio Horizonte" 
              class="w-full h-full object-cover object-center brightness-35 lg:brightness-40">
     </div>
 
-    <!-- NAVBAR -->
     <header class="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 py-4 flex justify-between items-center backdrop-blur-md bg-black/10">
         <div class="flex items-center">
             <span class="text-xl sm:text-2xl font-bold tracking-tight text-white">Rio<span class="text-gray-400 font-light">Horizonte</span></span>
@@ -60,10 +54,8 @@
         </div>
     </header>
 
-    <!-- CONTENIDO PRINCIPAL -->
     <main class="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 py-6 lg:py-12 flex flex-col lg:grid lg:grid-cols-12 gap-8 lg:gap-12 items-center flex-1">
         
-        <!-- SECCIÓN IZQUIERDA: TEXTO E INFO -->
         <div class="lg:col-span-6 space-y-4 sm:space-y-6 text-left w-full">
             <span class="bg-white/10 backdrop-blur-md text-white border border-white/20 px-3.5 py-1 rounded-full text-[11px] sm:text-xs font-medium tracking-wide inline-flex items-center gap-1.5">
                 📍 Jr. Malecón La Rivera N°171 - Huancayo
@@ -95,7 +87,6 @@
             </div>
         </div>
 
-        <!-- SECCIÓN DERECHA: FORMULARIO -->
         <div id="formulario" class="lg:col-span-6 w-full flex justify-center lg:justify-end pt-4 lg:pt-0">
             <div class="bg-white text-gray-900 p-5 sm:p-8 rounded-2xl sm:rounded-3xl shadow-2xl w-full max-w-md border border-gray-100">
                 <h2 class="text-xl sm:text-2xl font-bold tracking-tight text-gray-900">Solicitar Información</h2>
@@ -103,7 +94,6 @@
 
                 <form id="leadForm" class="space-y-4.5">
                     
-                    <!-- Selector de Objetivo (iOS Style) -->
                     <div>
                         <label class="block text-[11px] font-semibold text-gray-400 uppercase tracking-wider mb-1.5">¿Cuál es tu objetivo?</label>
                         <div class="grid grid-cols-2 gap-2 bg-gray-100 p-1 rounded-xl">
@@ -118,7 +108,6 @@
                         </div>
                     </div>
 
-                    <!-- Campos de Texto -->
                     <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
                         <div>
                             <label class="block text-[11px] font-semibold text-gray-500 uppercase tracking-wider mb-1">Nombre Completo *</label>
@@ -144,7 +133,6 @@
                                class="w-full bg-gray-50 border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-black focus:bg-white transition text-gray-900 h-11">
                     </div>
 
-                    <!-- Selects -->
                     <div>
                         <label class="block text-[11px] font-semibold text-gray-500 uppercase tracking-wider mb-1">Presupuesto Estimado *</label>
                         <div class="relative">
@@ -180,7 +168,6 @@
                         </div>
                     </div>
 
-                    <!-- Botón Enviar -->
                     <button type="submit" id="btnSubmit" 
                             class="w-full bg-black text-white text-sm font-semibold h-12 rounded-xl hover:bg-gray-800 active:scale-[0.98] transition-all tracking-wide shadow-md mt-4 flex justify-center items-center cursor-pointer">
                         <span id="btnText">Enviar información</span>
@@ -192,13 +179,11 @@
         </div>
     </main>
 
-    <!-- FOOTER -->
-    <footer class="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 py-6 border-t border-white/10 text-center sm:text-left flex flex-col sm:flex-row justify-between items-center text-[11px] text-gray-400 gap-2 bg-gray-950/80 backdrop-blur-md">
+    <footer class="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 py-6 border-t border-white/10 text-center sm:text-left flex flex-col sm:flex-row justify-between items-center text-[11px] text-gray-400 gap-2 bg-black/50 backdrop-blur-md">
         <p>&copy; 2026 Rio Horizonte. Todos los derechos reservados.</p>
         <p class="font-light">Diseño iOS optimizado para alta conversión móvil.</p>
     </footer>
 
-    <!-- SCRIPT DE INTEGRACIÓN -->
     <script>
         const radioItems = document.querySelectorAll('.segmented-item');
         
@@ -245,6 +230,7 @@
             const presupuesto = document.getElementById('presupuesto').value;
             const tiempo = document.getElementById('tiempo').value;
 
+            // JSON Estructurado para el Apps Script Central de Miranda Flow 1.0
             const payload = {
                 nombre: nombre,
                 dni: dni,
@@ -252,11 +238,12 @@
                 whatsapp: whatsapp,
                 correo: correo,
                 presupuesto: presupuesto,
-                tiempo: tiempo
+                tiempo: tiempo,
+                tag: "RIO HORIZONTE" // Define de qué tag/campaña proviene el lead de la web
             };
 
-            // TU NUEVA URL DE CONEXIÓN DIRECTA
-            const webAppUrl = "https://script.google.com/macros/s/AKfycbzkd8c3c1caCJCVLvxVv5BP4MbIHcAT-fVz6Ob4fd_SQYBtfwQ2CwZiR38hgE9hMLGi/exec";
+            // URL CENTRALIZADA DE TU BASE DE DATOS PRINCIPAL
+            const webAppUrl = "https://script.google.com/macros/s/AKfycbwMwOXsiwbGs0IHDS2p28PwuUhk8MmsyC9fVIdS-1BZnx-LFZ8Nb4CKqqQ5EDOrStk/exec";
 
             try {
                 await fetch(webAppUrl, {
@@ -268,13 +255,13 @@
 
                 if (typeof fbq !== 'undefined') {
                     fbq('track', 'Lead', {
-                        content_name: 'Rio Horizonte Mobile Lead',
+                        content_name: 'Rio Horizonte Web Lead',
                         value: 0.00,
                         currency: 'PEN'
                     });
                 }
 
-                msgResponse.innerText = "¡Listo! Datos guardados, un asesor te escribirá.";
+                msgResponse.innerText = "¡Listo! Tu solicitud fue registrada con éxito.";
                 msgResponse.className = "text-xs text-center mt-3 font-semibold text-green-600 bg-green-50 p-2 rounded-lg";
                 msgResponse.classList.remove('hidden');
                 
